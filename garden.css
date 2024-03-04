@@ -1,0 +1,59 @@
+body {
+background-color:hsl(50, 95%, 75%);
+margin-top:50px;
+font-family:arial;
+}
+
+h1 {
+font-size:48px;
+letter-spacing:-0.5px;
+}
+
+h2 {
+font-size: 28px;
+}
+
+p {
+font-size:20px;
+line-height:1.2;
+margin-bottom:4%;
+}
+
+a {
+font-size:20px;
+}
+
+pre {
+font-family:courier;
+font-size:20px;
+letter-spacing:-.7px;
+margin-bottom:50px;
+}
+
+.center {
+margin:auto;
+width:55%;
+}
+
+@media only screen and (max-width:990px) {
+.center {
+width:75%;
+}
+}
+
+@media only screen and (max-width:672px) {
+.center {
+width:90%
+}
+}
+
+#dek {
+font-size:32px;
+letter-spacing:-.5px;
+}
+
+
+::selection {
+color:black;
+background:AliceBlue;
+}
