@@ -57,3 +57,8 @@ letter-spacing:-.5px;
 color:black;
 background:AliceBlue;
 }
+
+a:hover {
+background-color:DarkBlue;
+color:White;
+}
