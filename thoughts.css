@@ -27,7 +27,8 @@ padding:20px 10px;
 background-color:hsl(50, 95%, 75%);
 width:100%;
 max-width:350px;
-height:300px;
+min-height:300px;
+max-height:auto;
 padding:16px;
 }
 
