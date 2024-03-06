@@ -4,6 +4,22 @@ margin-top:50px;
 font-family:arial;
 }
 
+div.ourlinks {
+display:flex;
+gap:3%;
+flex-wrap:wrap;
+}
+
+div.ourlinks a {
+font-size:28px;
+color:black;
+}
+
+div.ourlinks a:hover {
+background-color:DarkBlue;
+color:White;
+}
+
 h1 {
 font-size:48px;
 letter-spacing:-0.5px;
@@ -44,6 +60,12 @@ width:75%;
 @media only screen and (max-width:672px) {
 .center {
 width:90%
+}
+}
+
+@media only screen and (min-width:1600px) {
+.center {
+width:900px;
 }
 }
 
