@@ -31,10 +31,12 @@ height:500px;
 object-fit:cover;
 }
 
+/*
 .gallery::after {
 content:"";
 width:350px;
 }
+*/
 
 @media screen and (max-width:1102px) {
 .gallery img {
