@@ -31,19 +31,16 @@ height:500px;
 object-fit:cover;
 }
 
-/*
-.gallery::after {
-content:"";
-width:350px;
-}
-*/
 
 @media screen and (max-width:1102px) {
 .gallery img {
 max-width:47%;
 }
+}
+
 
 @media screen and (max-width:575px) {
 .gallery img {
 max-width:97%;
+}
 }
